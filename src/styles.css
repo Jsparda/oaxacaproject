@@ -3,3 +3,8 @@
 body {
     background-image: url(assets/walls/WALL1.jpeg);
 }
+
+.container {
+    margin-top: 10px;
+    color: #FFE033;
+}
