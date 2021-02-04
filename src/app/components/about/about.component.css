@@ -1,0 +1,14 @@
+.about {
+    /* background-color: #71B100; */
+    background-color: hsla(0, 100%, 50%, 0.3);
+    margin-top: 50px;
+    font-size: 25px;
+    padding: 10px;
+    color: #ffffff;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.imagen {
+    flex-basis: 40%;
+}
