@@ -1,8 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Angel wish";
+    src: url( /assets/fonts/Angel-wish.ttf) format("opentype") ;
+}
+@font-face {
+    font-family: "Kingthings Spike" ;
+    src: url( /assets/fonts/Kingthings-Spike.ttf ) format("opentype");
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
 
 body {
     background-image: url(assets/walls/WALL1.jpeg);
 }
+
 
 .container {
     margin-top: 10px;

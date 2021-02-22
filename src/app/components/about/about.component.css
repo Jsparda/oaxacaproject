@@ -1,14 +1,41 @@
-.about {
-    /* background-color: #71B100; */
-    background-color: hsla(0, 100%, 50%, 0.3);
-    margin-top: 50px;
-    font-size: 25px;
-    padding: 10px;
-    color: #ffffff;
-    border-radius: 2rem;
-    justify-content: space-between;
+.container,
+.card {
+    background-color: #202020;
+    
 }
 
-.imagen {
-    flex-basis: 40%;
+.card {
+    width: 100%;
+    padding: 20PX;
+    color: #fff;
+    font-family: "Angel wish", Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    text-align: justify;
+}
+.contenido {
+    padding: 0px 20px;
+}
+.card h5 {
+    font-size: 2em;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    /* padding: 10px; */
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.card .redes-sociales {
+    text-align: center;
+    /* display: flex; */
+    
+}
+.card .redes-sociales a {
+    color: #fff;
+    font-size: 2.5em;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0px 2em;
 }

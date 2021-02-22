@@ -1,0 +1,18 @@
+nav {
+    font-family: "Angel wish", Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    width: 100%;
+}
+nav div {
+    padding: 0px 1em;
+
+}
+
+ nav ul li {
+     display: inline-block;
+     margin: 0em 1.5em;
+ }
+
+ nav ul li:hover {
+     text-decoration: underline;
+ }
