@@ -37,5 +37,24 @@
     font-size: 2.5em;
     display: inline-block;
     cursor: pointer;
-    margin: 0px 2em;
+    margin: 0.2em 2em;
 }
+
+@media screen and (max-width: 1199px) {
+    .card .redes-sociales a {
+        margin: 0em 1em;
+        font-size: 2em;
+    }
+  } 
+@media screen and (max-width: 535px) {
+    .contenido{
+        padding: 0px;
+    }
+    .card {
+        font-size: 18px;
+        padding: 0px;
+    }
+    .card .redes-sociales a{
+        margin: 0em 0.5em;
+    }
+  } 

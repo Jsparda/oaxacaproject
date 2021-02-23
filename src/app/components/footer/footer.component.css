@@ -1,0 +1,44 @@
+footer{
+    color: #fff;
+    width: 100%;
+    background-color: #333533;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* position: fixed; */
+}
+
+footer .card {
+    background-color: #333533;
+}
+footer .card .contenido{
+    margin-top: 1.5em;
+}
+
+footer .card .contenido h5 {
+    font-size: 1em;
+    font-weight: 600;
+}
+
+footer .card .contenido a {
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin: 1em 1em;
+    padding: 0.5em 0.5em;
+}
+footer .card .contenido a:hover {
+    color: #000;
+    background-color: #fff;   
+}
+
+footer .card .contenido ul {
+    list-style: none;
+}
+
+footer .copy {
+    text-align: left;
+    /* padding: 0 0 0.8em 3em; */
+}
+footer .copy p {
+    padding: 0em 2em;
+}
