@@ -1,0 +1,58 @@
+ main {
+     /* font-family: 'Kingthings Spike',Arial, Helvetica, sans-serif; */
+     font-family: 'Angel wish',Arial, Helvetica, sans-serif;
+     font-size: 1.5em;
+     
+ }
+ main .container {
+    background-color: #202020;
+    width: 80%;
+    padding: 1.5em;
+    color: #fff;
+ }
+ main .container .titulo {
+    text-align: center;
+ }
+ main .container .titulo h2 {
+     font-family: 'Kingthings Spike';
+     font-size: 3em;
+ }
+ main .container form label {
+     font-size: 1.5em;
+ }
+ main .container form input,
+ main .container form textarea {
+    font-size: 1em;
+ }
+ main .container form input:focus,
+ main .container form textarea:focus {
+    border: 3px solid #FFEE32;
+ }
+ main .container .enviar {
+     display: inline-block;
+     margin: 1em 0;
+     width: 100%;
+     font-size: 1.8em;
+     background-color:#FFD100;
+     border-radius: 5px;
+ }
+ main .container .enviar:hover {
+     color: #000;
+     background-color: #FFEE32;
+ }
+
+ @media screen and (max-width: 500px) {
+    .container {
+        padding: 0;
+        font-size:16px;
+        margin:0px auto;
+        width: 100%;
+    }
+  } 
+ @media screen and (max-width: 376px) {
+    .container {
+        /* padding: 0; */
+        font-size:12px;
+        
+    }
+  } 
