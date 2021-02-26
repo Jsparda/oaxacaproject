@@ -22,7 +22,8 @@
  }
  main .container form input,
  main .container form textarea {
-    font-size: 1em;
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
  }
  main .container form input:focus,
  main .container form textarea:focus {
