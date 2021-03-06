@@ -1,5 +1,7 @@
 main .container {
     background-color: #202020;
+    font-family: "Angel wish";
+    /* font-size: 3em; */
     /* width: 100%; */
 }
 
@@ -16,7 +18,7 @@ main .container .img-cont {
 main .container .img-cont p {
     color: #fff;
     position: absolute;
-    font-size: 2em;
+    font-size: 3em;
     z-index: 1;
 }
 
@@ -35,5 +37,9 @@ main .container .img-cont button {
     /* display: none; */
     /* position: absolute; */
     margin: 1em;
+}
+
+main .container .img-cont button {
+    font-size: 1.3em;
 }
 
