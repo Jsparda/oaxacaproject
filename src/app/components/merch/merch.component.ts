@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore } from '@angular/fire/firestore';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-merch',
@@ -7,9 +9,28 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MerchComponent implements OnInit {
 
-  constructor() { }
+  merchs: Observable<any[]>;
+  // let compras: ObjCompra[];
+  constructor(firestore: AngularFirestore) {
+    this.merchs = firestore.collection('merchs').valueChanges();
 
-  ngOnInit(): void {
+    let compras: ObjCompra[];
   }
 
+  
+
+  ngOnInit(): void {
+    
+  }
+  clickAddCompra(merch:ObjCompra){
+    alert(merch.name);
+  }
+
+
+}
+export interface ObjCompra {
+  name: string;
+  costo: string;
+  stock: number;
+  url: string;
 }

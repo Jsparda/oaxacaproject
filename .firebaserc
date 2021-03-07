@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "dexings-3f89d": {
+      "hosting": {
+        "dexings": [
+          "dexings-3f89d"
+        ]
+      }
+    }
+  }
+}

@@ -43,3 +43,13 @@ main .container .img-cont button {
     font-size: 1.3em;
 }
 
+main ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+@media (max-width: 700px) {
+    main {
+        font-size:10px;
+    }
+  }
