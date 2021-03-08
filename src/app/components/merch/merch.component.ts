@@ -9,21 +9,18 @@ import { Observable } from 'rxjs';
 })
 export class MerchComponent implements OnInit {
 
+  compras: ObjCompra[];
+
   merchs: Observable<any[]>;
   // let compras: ObjCompra[];
   constructor(firestore: AngularFirestore) {
     this.merchs = firestore.collection('merchs').valueChanges();
-
-    let compras: ObjCompra[];
-  }
-
-  
+    this.compras = [];
+    //https://codingpotions.com/angular-vistas-bindings
+  } 
 
   ngOnInit(): void {
     
-  }
-  clickAddCompra(merch:ObjCompra){
-    alert(merch.name);
   }
 
 
